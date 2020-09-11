@@ -6,4 +6,7 @@ print("Hello You!, ik ben Aidan")
 print("De datum en tijd is: ", datum.strftime('%A %d %B %Y'))
 print("Wie ben jij?")
 naamvanandere = input()
-print("Hello " + naamvanandere)
+if naamvanandere == "Aidan":
+    print("hé jij ook hier")
+else:
+    print("Hello " + naamvanandere)
