@@ -11,9 +11,9 @@ naamvanandere = input()
 if naamvanandere == "Aidan":
     print("hé jij ook hier")
     print("Hoe grote kamer heb je?")
-    print("Hoe lang is jou kamer")
+    print("Hoe lang is jou kamer in meters?")
     lengtekamer = int(input())
-    print("Hoe breed is jou kamer?")
+    print("Hoe breed is jou kamer in meters?")
     breedtekamer = int(input())
     grotekamer = breedtekamer * lengtekamer;
     print("je kamer is: " , grotekamer , "m² groot")
