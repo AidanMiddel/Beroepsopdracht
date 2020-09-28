@@ -158,15 +158,15 @@ achtendertig = Image("99999:"
 
 #tot hier alle plaatjes voor de temparatuur
 
-temp = temperature()
-mingetal = 6
-temp2 = temp - mingetal
+while script == True:
+    temp = temperature()
+    mingetal = 6
+    temp2 = temp - mingetal
 
 #tot hier de afwijking van mijn (Aidan Middel) microbit bijstellen
-
-while script == True:
     if button_a.was_pressed():
-        display.scroll(temp2) #als je de a knop in drukt zie je de acuraate temparatuur
+        display.scroll(temp2)
+        #als je de a knop in drukt zie je de acuraate temparatuur
     elif temp2 in range(-10, -8):
         display.show(mintien)
     elif temp2 in range(-8, -6):
