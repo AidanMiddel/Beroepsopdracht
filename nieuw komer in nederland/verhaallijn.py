@@ -9,16 +9,42 @@ print("1. Vluchten dit is niet goedkoop dus je hebt veel geld nodig je komt zo'n
 begin = input("Kies 1 of 2: ")
 #je kiest of je gaat vluchten of niet dit heeft best wel inpact op het verhaal
 if begin == "1":
-    print("Oké je kiest om te vluchten maar je komt geld te kort dus wat doe je? \n1. Nog voor een maandje werken. \n2. Kijken of je de smokelaar wat naar benden kan praten")
+    print(" \nOké je kiest om te vluchten maar je komt geld te kort dus wat doe je? \n1. Nog voor een maandje werken. \n2. Kijken of je de smokelaar wat naar benden kan praten")
     vluchten_1= input("Kies 1 of 2: ")
     if vluchten_1 == "1":
-        print("Oké gelukkig heb je precies $3000 gekregen deze maand \nDus je gaat maar gelijk de volgende dag vluchten \n \nJe bent teruggegaan naar de smokkelaar hij is alleen al vertrokken. \nDus zoek je een nieuwe smokkelaar. \nGelukkig heb je er 1 gevonden die je via een vrachtwagen je naar Europa gaat brengen")
+        print(" \nOké gelukkig heb je precies $3000 gekregen deze maand \nDus je gaat maar gelijk de volgende dag vluchten \n \nJe bent teruggegaan naar de smokkelaar hij is alleen al vertrokken. \nDus zoek je een nieuwe smokkelaar. \nGelukkig heb je er 1 gevonden die je via een vrachtwagen je naar Europa gaat brengen")
         #ga naar 1 voor mij
     elif vluchten_1 == "2":
-        print("lel")
+        print(" \nDit is helaas gefaald dus moet je alsnog gaan werken voor een maandje \n \nOké gelukkig heb je precies $3000 gekregen deze maand \nDus je gaat maar gelijk de volgende dag vluchten \n \nJe bent teruggegaan naar de smokkelaar hij is alleen al vertrokken. \nDus zoek je een nieuwe smokkelaar. \nGelukkig heb je er 1 gevonden die je via een vrachtwagen je naar Europa gaat brengen")
+        #ga naar 1 voor mij
     else:
-        print("nee")
+        print("uhm wat")
 elif begin == "2":
-    print("voor nu nog niks")
+    print(" \nJe bent al een maand lang gewoon gebleven in Jemen. \nMaar het wordt nu wel een beetje erg de oorlog en je hoort op het nieuws dat het steeds meer jou kant op komt \n wat doe je? \n1. Toch maar vluchten \n2. Toch hier nog een maandje blijven")
+    blijven_1 = input("Kies 1 of 2: ")
+    if blijven_1 == "1":
+        print(" \nOké je kiest om te vluchten maar je komt geld te kort dus wat doe je? \n1. Nog voor een maandje werken. \n2. Kijken of je de smokelaar wat naar benden kan praten")
+        vluchten_1= input("Kies 1 of 2: ")
+        if vluchten_1 == "1":
+            print(" \nOké gelukkig heb je precies $3000 gekregen deze maand \nDus je gaat maar gelijk de volgende dag vluchten \n \nJe bent teruggegaan naar de smokkelaar hij is alleen al vertrokken. \nDus zoek je een nieuwe smokkelaar. \nGelukkig heb je er 1 gevonden die je via een vrachtwagen je naar Europa gaat brengen")
+            #ga naar 1 voor mij
+        elif vluchten_1 == "2":
+            print(" \nDit is helaas gefaald dus moet je alsnog gaan werken voor een maandje \n \nOké gelukkig heb je precies $3000 gekregen deze maand \nDus je gaat maar gelijk de volgende dag vluchten \n \nJe bent teruggegaan naar de smokkelaar hij is alleen al vertrokken. \nDus zoek je een nieuwe smokkelaar. \nGelukkig heb je er 1 gevonden die je via een vrachtwagen je naar Europa gaat brengen")
+            #ga naar 1 voor mij
+    elif blijven_1 == "2":
+        print("Je hoort op het nieuws dat het nu wel erg 'hot' wordt in je regio ga je nu wel of nog steeds niet? \n1. Nee ik zit hier prima voor nu \n2. Ja misschien wordt het eens tijd")
+        blijven_2 = input("Kies 1 of 2: ")
+        if blijven_2 == "1":
+            print("Oké nu een maand later breng je je kinderen naar school. \nMaar op de school staat dat de school is gesloten gezien de dreigingen ga je nu toch maar eens vluchten? \n1. Nee heb geen zin om te vluchten \n2. Ja misschien wordt het eens tijd")
+            blijven_3 = input("Kies 1 of 2: ")
+            if blijven_3 == "1":
+                #ga naar 2
+            elif blijven_3 == "2":
+                
+        elif blijven_2 == "2"
+        
+        else
+    else:
+        print("uuuhmmm wat")
 else:
-    print("bruh")
+    print("uhm wat")
