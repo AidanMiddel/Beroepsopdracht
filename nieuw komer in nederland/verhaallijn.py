@@ -38,7 +38,48 @@ if begin == "1":
                 print("Dit is einde 1 de reis zonder te veel problemen :) bedankt voor het spelen")
             elif vluchten_3 == "2":
                 #ga naar 3 voor mij
-                
+                print(" \nJe kiest ervoor om hier een tijdje te blijven gezien de oorlog alleen in Jemen bezig is. \nNa een week denk je er toch aan om misschien verder te gaan gezien dat je hier geen baan kan vinden omdat je niet kan bewijzen dat je een geregisterde burger bent en je op de 2de rang staat in dit land. \nWat doe je? \n1. Blijf hier \n2. Ga toch verder vluchten")
+                vluchten_4 = input("Kies 1 of 2: ")
+                if vluchten_4 == "1":
+                    print("███████╗██╗███╗░░██╗██████╗░███████╗  ██████╗░")
+                    print("██╔════╝██║████╗░██║██╔══██╗██╔════╝  ╚════██╗")
+                    print("█████╗░░██║██╔██╗██║██║░░██║█████╗░░  ░░███╔═╝")
+                    print("██╔══╝░░██║██║╚████║██║░░██║██╔══╝░░  ██╔══╝░░")
+                    print("███████╗██║██║░╚███║██████╔╝███████╗  ███████╗")
+                    print("╚══════╝╚═╝╚═╝░░╚══╝╚═════╝░╚══════╝  ╚══════╝")
+                    print(" \nDit is einde 2 lekker in Saudi-Arabië een nieuw leven proberen op te bouwen")")
+                elif vluchten_4 == "2":
+                    print(" \nnaar waar ga je heen na wat rondvragen kom je erachter dat je of met de hele familie naar Polen kan gaan of in je eentje naar Nederland. \nWat kies je? \n1. Polen met de hele familie \n2. Naar Nederland in je eentje")
+                    vluchten_5 = input("Kies 1 of 2: ")
+                    if vluchten_5 == "1":
+                        print(" \nJe kiest ervoor om naar polen te gaan met je familie. \nDe volgende dag ga je met een andere vrachtwagen naar Polen. \nHet is best een stukje en na een tijdje kom je aan in polen met de familie. ")
+                        print(" \nHier kies je ervoor om je leven opnieuw te starten \n")
+                        print("███████╗██╗███╗░░██╗██████╗░███████╗  ██████╗░")
+                        print("██╔════╝██║████╗░██║██╔══██╗██╔════╝  ╚════██╗")
+                        print("█████╗░░██║██╔██╗██║██║░░██║█████╗░░  ░█████╔╝")
+                        print("██╔══╝░░██║██║╚████║██║░░██║██╔══╝░░  ░╚═══██╗")
+                        print("███████╗██║██║░╚███║██████╔╝███████╗  ██████╔╝")
+                        print("╚══════╝╚═╝╚═╝░░╚══╝╚═════╝░╚══════╝  ╚═════╝░")
+                        print(" \nDit is einde 3 met je familie in polen een nieuw leven optebouwen")
+                    elif vluchten_5 == "2":
+                        print(" \nJe kiest ervoor om naar Nederland te gaan in je eentje en later je familie over te laten komen. ")
+                        print(" \nDus je gaat naar de plek die je naar Nederland gaat krijgen. \nEen beetje bang om je familie achter te laten. \nMaar je gaat er toch voor.")
+                        print(" \nNa een lange reis kom je eindelijk aan in Rotterdam waar ze zeggen dat je naar de politie moet gaan om ervoor te zorgen dat een legale burger wordt. \nDus na wat papieren en praten word je naar een azc gestuurd. \nWaar je een tijdje blijft. \nMaar je voelt je wel rot voor je familie om die achter te laten")
+                        print(" \nNa 4 maanden is het eindelijk zo ver je hebt geregeld om je familie over te brengen naar Nederland. \nJe staat op schilhol op ze te wachten en als uiteindelijk de deur opengaat zie je eindelijk je kinderen vrouw weer terug. \nJullie gaan samen terug naar het azc na wat papier werk zijn ze eindelijk weer samen veilig in Nederland")
+                        print("")
+                        print("███████╗██╗███╗░░██╗██████╗░███████╗  ░░███╗░░")
+                        print("██╔════╝██║████╗░██║██╔══██╗██╔════╝  ░████║░░")
+                        print("█████╗░░██║██╔██╗██║██║░░██║█████╗░░  ██╔██║░░")
+                        print("██╔══╝░░██║██║╚████║██║░░██║██╔══╝░░  ╚═╝██║░░")
+                        print("███████╗██║██║░╚███║██████╔╝███████╗  ███████╗")
+                        print("╚══════╝╚═╝╚═╝░░╚══╝╚═════╝░╚══════╝  ╚══════╝")
+                        print("")
+                        print("Dit is einde 1 waar je uiteindelijk veilig in nederland aankomt")
+                    else:
+                        print("eugh")
+                    #einde van stukje 3
+                else:
+                    print("1 of 2 kom op")
             else:
                 print("iek spreek geen:" , vluchten_3) 
         elif vluchten_2 == "2":
@@ -90,13 +131,15 @@ if begin == "1":
                         print("boo")
                 else:
                     print("1 of 2 het is niet moeilijk")
+                #einde stukje 2
             elif vluchten_4 == "2":
-                print("Je vraagt je geld terug maar de smokkelaar kijkt je raar aan en lacht. Sorry maar we geven geen 'refunds' op ons werk ")
+                print(" \nJe vraagt je geld terug maar de smokkelaar kijkt je raar aan en lacht. \nSorry maar we geven geen 'refunds' op ons werk ")
                 #ga naar 2
             else: 
                 print("............. nee")
         else:
             print("iek begrijpen nie")
+        #einde van stukje 1
     elif vluchten_1 == "2":
         print(" \nDit is helaas gefaald dus moet je alsnog gaan werken voor een maandje \n \nOké gelukkig heb je precies $3000 gekregen deze maand \nDus je gaat maar gelijk de volgende dag vluchten \n \nJe bent teruggegaan naar de smokkelaar hij is alleen al vertrokken. \nDus zoek je een nieuwe smokkelaar. \nGelukkig heb je er 1 gevonden die je via een vrachtwagen je naar Europa gaat brengen")
         #ga naar 1 voor mij
@@ -115,10 +158,10 @@ elif begin == "2":
             print(" \nDit is helaas gefaald dus moet je alsnog gaan werken voor een maandje \n \nOké gelukkig heb je precies $3000 gekregen deze maand \nDus je gaat maar gelijk de volgende dag vluchten \n \nJe bent teruggegaan naar de smokkelaar hij is alleen al vertrokken. \nDus zoek je een nieuwe smokkelaar. \nGelukkig heb je er 1 gevonden die je via een vrachtwagen je naar Europa gaat brengen")
             #ga naar 1 voor mij
     elif blijven_1 == "2":
-        print("Je hoort op het nieuws dat het nu wel erg 'hot' wordt in je regio ga je nu wel of nog steeds niet? \n1. Nee ik zit hier prima voor nu \n2. Ja misschien wordt het eens tijd")
+        print(" \nJe hoort op het nieuws dat het nu wel erg 'hot' wordt in je regio ga je nu wel of nog steeds niet? \n1. Nee ik zit hier prima voor nu \n2. Ja misschien wordt het eens tijd")
         blijven_2 = input("Kies 1 of 2: ")
         if blijven_2 == "1":
-            print("Oké nu een maand later breng je je kinderen naar school. \nMaar op de school staat dat de school is gesloten gezien de dreigingen ga je nu toch maar eens vluchten? \n1. Nee heb geen zin om te vluchten \n2. Ja misschien wordt het eens tijd")
+            print(" \nOké nu een maand later breng je je kinderen naar school. \nMaar op de school staat dat de school is gesloten gezien de dreigingen ga je nu toch maar eens vluchten? \n1. Nee heb geen zin om te vluchten \n2. Ja misschien wordt het eens tijd")
             blijven_3 = input("Kies 1 of 2: ")
             if blijven_3 == "1":
                 print("yes")
