@@ -38,14 +38,58 @@ if begin == "1":
                 print("Dit is einde 1 de reis zonder te veel problemen :) bedankt voor het spelen")
             elif vluchten_3 == "2":
                 #ga naar 3 voor mij
+                
             else:
                 print("iek spreek geen:" , vluchten_3) 
         elif vluchten_2 == "2":
             print(" \n Vraag je je geld terug? \n1. Nee het zal wel \n2. Ja ik kan het hard gebruiken")
             vluchten_4= input("Kies 1 of 2: ")
             if vluchten_4 == "1":
-                print("Je pakt al je spullen en gaat terug naar je huis")
+                print(" \nJe pakt al je spullen en gaat terug naar je huis")
                 #ga naar 2
+                print(" \nAls je toch niet gaat vluchten kleine update het wordt steeds 'hotter' in jouw gebied en na 3 maanden zie je dat de school van je kinderen is afgesloten maar je besluit om toch maar niet te vluchten voor nu")
+                print("De volgende dag word je rustig (nou hoe rustig het nog is) wakker tot je ineens een keiharde knal hoort buiten waar je best van schrikt en je gaat eens kijken wat die knal is. \nJe komt buiten maar ziet niet gelijk wat het is dus je gaat weer naar binnen en zet de tv aan. \nOp de tv zie je dat er een bom is laten ontploffen in het dorp hiernaast. \nWat doe je? \n1. Je familie wakker maken en zeggen dat we hier zo snel mogelijk weg moet en gaan. \n2. Rustig verder gaan met je ontbijt en straks overleggen met je vrouw")
+                blijven_4= input("Kies 1 of 2: ")
+                if blijven_4 == "1":
+                    print(" \nJe maakt iedereen wakker en zegt dat ze alles wat ze willen houden moeten inpakken want we gaan hier nu weg. \nNa 15 min is iedereen klaar en stap je in de auto en rij je rustig naar het noorden van Jemen")
+                    print(" \nNa een 15 minuten rijden richting noord zie je de schade die de oorlog tot nu toe heeft aangebracht op de radio hoor je dat er op je dorp een bom is geland. \nJe besluit om maar flink door te rijden. ")
+                    print(" \nUiteindelijk kom je aan in Saudi-Arabië zonder gewond te raken. \nJe besluit hier te blijven en een leven opnieuw hier te starten\n")
+                    print("███████╗██╗███╗░░██╗██████╗░███████╗  ██████╗░")
+                    print("██╔════╝██║████╗░██║██╔══██╗██╔════╝  ╚════██╗")
+                    print("█████╗░░██║██╔██╗██║██║░░██║█████╗░░  ░░███╔═╝")
+                    print("██╔══╝░░██║██║╚████║██║░░██║██╔══╝░░  ██╔══╝░░")
+                    print("███████╗██║██║░╚███║██████╔╝███████╗  ███████╗")
+                    print("╚══════╝╚═╝╚═╝░░╚══╝╚═════╝░╚══════╝  ╚══════╝")
+                    print(" \nDit is einde 2 het net ontsnappen van een bom en lekker in Saudi-Arabië een nieuw leven opbouwen")
+                elif blijven_4 == "2":
+                    print("Nadat je vrouw ook wakker is en binnenkomt zegt ze dat ze een grote knal hoorde. \nJe vertelt dat in het dorp hiernaast een bom is afgegaan. \nJe vrouw schrikt van het nieuws en stelt voor dat we misschien moeten gaan vluchten? \nGa je hierin mee? \n1. Nee het is hier naast het dorp en het leger is al onderweg deze kant op \n2. Ja laten we hier maar zo snel mogelijk vertrekken")
+                    blijven_5 = input("Kies 1 of 2: ")
+                    if blijven_5 == "1":
+                        print(" \nJe kinderen komen net binnen omdat ze ook wakker waren geworden door de knal. \nJe vertelt ze dat het niet erg is omdat het leger toch onderweg is om de rellen buiten ons dorp te laten.")
+                        print(" \nDus je gaat verder met je ontbijt met de familie.  \nJe dochter vraagt of het nog wel slim is om hier te blijven en je laat haar nog weten een keer weten dat het goed komt. ")
+                        print(" \nEn dan land er een bom op je dorp \n")
+                        print("███████╗██╗███╗░░██╗██████╗░███████╗  ░░██╗██╗")
+                        print("██╔════╝██║████╗░██║██╔══██╗██╔════╝  ░██╔╝██║")
+                        print("█████╗░░██║██╔██╗██║██║░░██║█████╗░░  ██╔╝░██║")
+                        print("██╔══╝░░██║██║╚████║██║░░██║██╔══╝░░  ███████║")
+                        print("███████╗██║██║░╚███║██████╔╝███████╗  ╚════██║")
+                        print("╚══════╝╚═╝╚═╝░░╚══╝╚═════╝░╚══════╝  ░░░░░╚═╝")
+                        print(" \ndi is einde 4 het eigenwijs blijven zitten met geen happy ending")
+                    elif blijven_5 == "2":
+                        print(" \nJe maakt iedereen wakker en zegt dat ze alles wat ze willen houden moeten inpakken want we gaan hier nu weg. \nNa 15 min is iedereen klaar en stap je in de auto en rij je rustig naar het noorden van Jemen")
+                        print(" \nNa een 15 minuten rijden richting noord zie je de schade die de oorlog tot nu toe heeft aangebracht op de radio hoor je dat er op je dorp een bom is geland. \nJe besluit om maar flink door te rijden. ")
+                        print(" \nUiteindelijk kom je aan in Saudi-Arabië zonder gewond te raken. \nJe besluit hier te blijven en een leven opnieuw hier te starten\n")
+                        print("███████╗██╗███╗░░██╗██████╗░███████╗  ██████╗░")
+                        print("██╔════╝██║████╗░██║██╔══██╗██╔════╝  ╚════██╗")
+                        print("█████╗░░██║██╔██╗██║██║░░██║█████╗░░  ░░███╔═╝")
+                        print("██╔══╝░░██║██║╚████║██║░░██║██╔══╝░░  ██╔══╝░░")
+                        print("███████╗██║██║░╚███║██████╔╝███████╗  ███████╗")
+                        print("╚══════╝╚═╝╚═╝░░╚══╝╚═════╝░╚══════╝  ╚══════╝")
+                        print(" \nDit is einde 2 het net ontsnappen van een bom en lekker in Saudi-Arabië een nieuw leven opbouwen")")
+                    else:
+                        print("boo")
+                else:
+                    print("1 of 2 het is niet moeilijk")
             elif vluchten_4 == "2":
                 print("Je vraagt je geld terug maar de smokkelaar kijkt je raar aan en lacht. Sorry maar we geven geen 'refunds' op ons werk ")
                 #ga naar 2
