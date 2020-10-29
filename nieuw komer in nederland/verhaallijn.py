@@ -4,7 +4,7 @@
 import os, time
 
 #introductie van het verhaal
-print("Welkom bij mijn verhaal over de vlucht van Salah en zijn familie. \n \nJe bent die ochtend wakker geworden en lekker tijdens het ontbijt kijk je naar het nieuws. \nOp het nieuws zie je dat er een burgeroorlog is uitgebroken. \n \nWat ga je doen? \n ")
+print("Welkom bij mijn verhaal over de vlucht van Salah en zijn familie. \n\nJe bent die ochtend wakker geworden en lekker tijdens het ontbijt kijk je naar het nieuws. \nOp het nieuws zie je dat er een burgeroorlog is uitgebroken. \n\nWat ga je doen? \n")
 print("1. Vluchten dit is niet goedkoop dus je hebt veel geld nodig je komt zo'n $3000 te kort. \n2. Hier blijven")
 begin = input("Kies 1 of 2: ")
 #je kiest of je gaat vluchten of niet dit heeft best wel inpact op het verhaal
@@ -14,7 +14,7 @@ if begin == "1":
     vluchten_1= input("Kies 1 of 2: ")
     if vluchten_1 == "1":
         os.system('cls')
-        print(" \nOké gelukkig heb je precies $3000 gekregen deze maand \nDus je gaat maar gelijk de volgende dag vluchten \n \nJe bent teruggegaan naar de smokkelaar hij is alleen al vertrokken. \nDus zoek je een nieuwe smokkelaar. \nGelukkig heb je er 1 gevonden die je via een vrachtwagen je naar Europa gaat brengen")
+        print(" \nOké gelukkig heb je precies $3000 gekregen deze maand \nDus je gaat maar gelijk de volgende dag vluchten \n\nJe bent teruggegaan naar de smokkelaar hij is alleen al vertrokken. \nDus zoek je een nieuwe smokkelaar. \nGelukkig heb je er 1 gevonden die je via een vrachtwagen je naar Europa gaat brengen")
         #ga naar 1 voor mij
         print(" \nJe komt aan bij de vrachtwagen op de dag dat je gaat vluchten richting Europa. \nJe hebt het geld en geeft het aan de smokkelaar. \nJe vrouw is een beetje bang maar het moet maar. \nJe dochter kijkt je ook bang aan maar je autistische zoon snapt er al helemaal niks meer van. \nJe aarzelt nog even wil ik dit echt wel doen? \n1. Ja, het is hier niet meer veilig \n2. Je kijkt nog een keer naar je familie en kiest om toch te blijven gezien de risico te groot is.")
         vluchten_2= input("Kies 1 of 2: ")
@@ -23,7 +23,7 @@ if begin == "1":
             print(" \nOké, dus je kiest om gewoon weg te gaan hier is voor nu toch geen toekomst meer.")
             print(" \nDus je gaat zitten achter in de vrachtwagen er zijn een paar families die ook in de vrachtwagen zitten. \nHet is best een hobbelig tripje. \nJe zoon raak een beetje in paniek van alle bewegingen. \nDus je neemt hem op je schoot en rijden verder.")
             print(" \nJullie komen nu eindelijk bij de grens van Jemen en Saudi-Arabië aan, gelukkig gaat de grenscontrole niet jullie vrachtwagen controleren. \nEn jullie komen veilig aan in Saudi-Arabië.")
-            print(" \nHelaas zegt je smokkelaar dat wegens omstandig heden jullie niet verder kunnen naar Saudi-Arabië dus eindigt de reis hiervoor nu. \nNou heeft hij een contact die jullie verder kan krijgen die gelijk morgen weggaat. \nGa je gelijk met de hele familie morgen verder vluchten of wacht je nog even in Saudi-Arabië? \n 1. Ja, ik wil hier snel weg \n2. Nah, ik blijf nog even in dit land")
+            print(" \nHelaas zegt je smokkelaar dat wegens omstandig heden jullie niet verder kunnen naar Saudi-Arabië dus eindigt de reis hiervoor nu. \nNou heeft hij een contact die jullie verder kan krijgen die gelijk morgen weggaat. \nGa je gelijk met de hele familie morgen verder vluchten of wacht je nog even in Saudi-Arabië? \n1. Ja, ik wil hier snel weg \n2. Nah, ik blijf nog even in dit land")
             vluchten_3= input("Kies 1 of 2: ")
             if vluchten_3 == "1":
                 os.system('cls')
@@ -93,7 +93,7 @@ if begin == "1":
                 print("iek spreek geen:" , vluchten_3) 
         elif vluchten_2 == "2":
             os.system('cls')
-            print(" \n Vraag je je geld terug? \n1. Nee het zal wel \n2. Ja ik kan het hard gebruiken")
+            print(" \nVraag je je geld terug? \n1. Nee het zal wel \n2. Ja ik kan het hard gebruiken")
             vluchten_4= input("Kies 1 of 2: ")
             if vluchten_4 == "1":
                 os.system('cls')
@@ -129,7 +129,7 @@ if begin == "1":
                         print("██╔══╝░░██║██║╚████║██║░░██║██╔══╝░░  ███████║")
                         print("███████╗██║██║░╚███║██████╔╝███████╗  ╚════██║")
                         print("╚══════╝╚═╝╚═╝░░╚══╝╚═════╝░╚══════╝  ░░░░░╚═╝")
-                        print(" \ndi is einde 4 het eigenwijs blijven zitten met geen happy ending")
+                        print(" \ndit is einde 4 het eigenwijs blijven zitten met geen happy ending")
                     elif blijven_5 == "2":
                         os.system('cls')
                         print(" \nJe maakt iedereen wakker en zegt dat ze alles wat ze willen houden moeten inpakken want we gaan hier nu weg. \nNa 15 min is iedereen klaar en stap je in de auto en rij je rustig naar het noorden van Jemen")
@@ -181,7 +181,7 @@ if begin == "1":
                         print("██╔══╝░░██║██║╚████║██║░░██║██╔══╝░░  ███████║")
                         print("███████╗██║██║░╚███║██████╔╝███████╗  ╚════██║")
                         print("╚══════╝╚═╝╚═╝░░╚══╝╚═════╝░╚══════╝  ░░░░░╚═╝")
-                        print(" \ndi is einde 4 het eigenwijs blijven zitten met geen happy ending")
+                        print(" \ndit is einde 4 het eigenwijs blijven zitten met geen happy ending")
                     elif blijven_5 == "2":
                         os.system('cls')
                         print(" \nJe maakt iedereen wakker en zegt dat ze alles wat ze willen houden moeten inpakken want we gaan hier nu weg. \nNa 15 min is iedereen klaar en stap je in de auto en rij je rustig naar het noorden van Jemen")
@@ -206,7 +206,7 @@ if begin == "1":
         #einde van stukje 1
     elif vluchten_1 == "2":
         os.system('cls')
-        print(" \nDit is helaas gefaald dus moet je alsnog gaan werken voor een maandje \n \nOké gelukkig heb je precies $3000 gekregen deze maand \nDus je gaat maar gelijk de volgende dag vluchten \n \nJe bent teruggegaan naar de smokkelaar hij is alleen al vertrokken. \nDus zoek je een nieuwe smokkelaar. \nGelukkig heb je er 1 gevonden die je via een vrachtwagen je naar Europa gaat brengen")
+        print(" \nDit is helaas gefaald dus moet je alsnog gaan werken voor een maandje \n\nOké gelukkig heb je precies $3000 gekregen deze maand \nDus je gaat maar gelijk de volgende dag vluchten \n\nJe bent teruggegaan naar de smokkelaar hij is alleen al vertrokken. \nDus zoek je een nieuwe smokkelaar. \nGelukkig heb je er 1 gevonden die je via een vrachtwagen je naar Europa gaat brengen")
         #ga naar 1 voor mij
         print(" \nJe komt aan bij de vrachtwagen op de dag dat je gaat vluchten richting Europa. \nJe hebt het geld en geeft het aan de smokkelaar. \nJe vrouw is een beetje bang maar het moet maar. \nJe dochter kijkt je ook bang aan maar je autistische zoon snapt er al helemaal niks meer van. \nJe aarzelt nog even wil ik dit echt wel doen? \n1. Ja, het is hier niet meer veilig \n2. Je kijkt nog een keer naar je familie en kiest om toch te blijven gezien de risico te groot is.")
         vluchten_2= input("Kies 1 of 2: ")
@@ -215,7 +215,7 @@ if begin == "1":
             print(" \nOké, dus je kiest om gewoon weg te gaan hier is voor nu toch geen toekomst meer.")
             print(" \nDus je gaat zitten achter in de vrachtwagen er zijn een paar families die ook in de vrachtwagen zitten. \nHet is best een hobbelig tripje. \nJe zoon raak een beetje in paniek van alle bewegingen. \nDus je neemt hem op je schoot en rijden verder.")
             print(" \nJullie komen nu eindelijk bij de grens van Jemen en Saudi-Arabië aan, gelukkig gaat de grenscontrole niet jullie vrachtwagen controleren. \nEn jullie komen veilig aan in Saudi-Arabië.")
-            print(" \nHelaas zegt je smokkelaar dat wegens omstandig heden jullie niet verder kunnen naar Saudi-Arabië dus eindigt de reis hiervoor nu. \nNou heeft hij een contact die jullie verder kan krijgen die gelijk morgen weggaat. \nGa je gelijk met de hele familie morgen verder vluchten of wacht je nog even in Saudi-Arabië? \n 1. Ja, ik wil hier snel weg \n2. Nah, ik blijf nog even in dit land")
+            print(" \nHelaas zegt je smokkelaar dat wegens omstandig heden jullie niet verder kunnen naar Saudi-Arabië dus eindigt de reis hiervoor nu. \nNou heeft hij een contact die jullie verder kan krijgen die gelijk morgen weggaat. \nGa je gelijk met de hele familie morgen verder vluchten of wacht je nog even in Saudi-Arabië? \n1. Ja, ik wil hier snel weg \n2. Nah, ik blijf nog even in dit land")
             vluchten_3= input("Kies 1 of 2: ")
             if vluchten_3 == "1":
                 os.system('cls')
@@ -285,7 +285,7 @@ if begin == "1":
                 print("iek spreek geen:" , vluchten_3) 
         elif vluchten_2 == "2":
             os.system('cls')
-            print(" \n Vraag je je geld terug? \n1. Nee het zal wel \n2. Ja ik kan het hard gebruiken")
+            print(" \nVraag je je geld terug? \n1. Nee het zal wel \n2. Ja ik kan het hard gebruiken")
             vluchten_4= input("Kies 1 of 2: ")
             if vluchten_4 == "1":
                 os.system('cls')
@@ -321,7 +321,7 @@ if begin == "1":
                         print("██╔══╝░░██║██║╚████║██║░░██║██╔══╝░░  ███████║")
                         print("███████╗██║██║░╚███║██████╔╝███████╗  ╚════██║")
                         print("╚══════╝╚═╝╚═╝░░╚══╝╚═════╝░╚══════╝  ░░░░░╚═╝")
-                        print(" \ndi is einde 4 het eigenwijs blijven zitten met geen happy ending")
+                        print(" \ndit is einde 4 het eigenwijs blijven zitten met geen happy ending")
                     elif blijven_5 == "2":
                         os.system('cls')
                         print(" \nJe maakt iedereen wakker en zegt dat ze alles wat ze willen houden moeten inpakken want we gaan hier nu weg. \nNa 15 min is iedereen klaar en stap je in de auto en rij je rustig naar het noorden van Jemen")
@@ -373,7 +373,7 @@ if begin == "1":
                         print("██╔══╝░░██║██║╚████║██║░░██║██╔══╝░░  ███████║")
                         print("███████╗██║██║░╚███║██████╔╝███████╗  ╚════██║")
                         print("╚══════╝╚═╝╚═╝░░╚══╝╚═════╝░╚══════╝  ░░░░░╚═╝")
-                        print(" \ndi is einde 4 het eigenwijs blijven zitten met geen happy ending")
+                        print(" \ndit is einde 4 het eigenwijs blijven zitten met geen happy ending")
                     elif blijven_5 == "2":
                         os.system('cls')
                         print(" \nJe maakt iedereen wakker en zegt dat ze alles wat ze willen houden moeten inpakken want we gaan hier nu weg. \nNa 15 min is iedereen klaar en stap je in de auto en rij je rustig naar het noorden van Jemen")
@@ -400,7 +400,7 @@ if begin == "1":
         print("uhm wat")
 elif begin == "2":
     os.system('cls')
-    print(" \nJe bent al een maand lang gewoon gebleven in Jemen. \nMaar het wordt nu wel een beetje erg de oorlog en je hoort op het nieuws dat het steeds meer jou kant op komt \n wat doe je? \n1. Toch maar vluchten \n2. Toch hier nog een maandje blijven")
+    print(" \nJe bent al een maand lang gewoon gebleven in Jemen. \nMaar het wordt nu wel een beetje erg de oorlog en je hoort op het nieuws dat het steeds meer jou kant op komt \nwat doe je? \n1. Toch maar vluchten \n2. Toch hier nog een maandje blijven")
     blijven_1 = input("Kies 1 of 2: ")
     if blijven_1 == "1":
         os.system('cls')
@@ -408,7 +408,7 @@ elif begin == "2":
         vluchten_1= input("Kies 1 of 2: ")
         if vluchten_1 == "1":
             os.system('cls')
-            print(" \nOké gelukkig heb je precies $3000 gekregen deze maand \nDus je gaat maar gelijk de volgende dag vluchten \n \nJe bent teruggegaan naar de smokkelaar hij is alleen al vertrokken. \nDus zoek je een nieuwe smokkelaar. \nGelukkig heb je er 1 gevonden die je via een vrachtwagen je naar Europa gaat brengen")
+            print(" \nOké gelukkig heb je precies $3000 gekregen deze maand \nDus je gaat maar gelijk de volgende dag vluchten \n\nJe bent teruggegaan naar de smokkelaar hij is alleen al vertrokken. \nDus zoek je een nieuwe smokkelaar. \nGelukkig heb je er 1 gevonden die je via een vrachtwagen je naar Europa gaat brengen")
             #ga naar 1 voor mij
             print(" \nJe komt aan bij de vrachtwagen op de dag dat je gaat vluchten richting Europa. \nJe hebt het geld en geeft het aan de smokkelaar. \nJe vrouw is een beetje bang maar het moet maar. \nJe dochter kijkt je ook bang aan maar je autistische zoon snapt er al helemaal niks meer van. \nJe aarzelt nog even wil ik dit echt wel doen? \n1. Ja, het is hier niet meer veilig \n2. Je kijkt nog een keer naar je familie en kiest om toch te blijven gezien de risico te groot is.")
             vluchten_2= input("Kies 1 of 2: ")
@@ -417,7 +417,7 @@ elif begin == "2":
                 print(" \nOké, dus je kiest om gewoon weg te gaan hier is voor nu toch geen toekomst meer.")
                 print(" \nDus je gaat zitten achter in de vrachtwagen er zijn een paar families die ook in de vrachtwagen zitten. \nHet is best een hobbelig tripje. \nJe zoon raak een beetje in paniek van alle bewegingen. \nDus je neemt hem op je schoot en rijden verder.")
                 print(" \nJullie komen nu eindelijk bij de grens van Jemen en Saudi-Arabië aan, gelukkig gaat de grenscontrole niet jullie vrachtwagen controleren. \nEn jullie komen veilig aan in Saudi-Arabië.")
-                print(" \nHelaas zegt je smokkelaar dat wegens omstandig heden jullie niet verder kunnen naar Saudi-Arabië dus eindigt de reis hiervoor nu. \nNou heeft hij een contact die jullie verder kan krijgen die gelijk morgen weggaat. \nGa je gelijk met de hele familie morgen verder vluchten of wacht je nog even in Saudi-Arabië? \n 1. Ja, ik wil hier snel weg \n2. Nah, ik blijf nog even in dit land")
+                print(" \nHelaas zegt je smokkelaar dat wegens omstandig heden jullie niet verder kunnen naar Saudi-Arabië dus eindigt de reis hiervoor nu. \nNou heeft hij een contact die jullie verder kan krijgen die gelijk morgen weggaat. \nGa je gelijk met de hele familie morgen verder vluchten of wacht je nog even in Saudi-Arabië? \n1. Ja, ik wil hier snel weg \n2. Nah, ik blijf nog even in dit land")
                 vluchten_3= input("Kies 1 of 2: ")
                 if vluchten_3 == "1":
                     os.system('cls')
@@ -487,7 +487,7 @@ elif begin == "2":
                     print("iek spreek geen:" , vluchten_3) 
             elif vluchten_2 == "2":
                 os.system('cls')
-                print(" \n Vraag je je geld terug? \n1. Nee het zal wel \n2. Ja ik kan het hard gebruiken")
+                print(" \nVraag je je geld terug? \n1. Nee het zal wel \n2. Ja ik kan het hard gebruiken")
                 vluchten_4= input("Kies 1 of 2: ")
                 if vluchten_4 == "1":
                     os.system('cls')
@@ -523,7 +523,7 @@ elif begin == "2":
                             print("██╔══╝░░██║██║╚████║██║░░██║██╔══╝░░  ███████║")
                             print("███████╗██║██║░╚███║██████╔╝███████╗  ╚════██║")
                             print("╚══════╝╚═╝╚═╝░░╚══╝╚═════╝░╚══════╝  ░░░░░╚═╝")
-                            print(" \ndi is einde 4 het eigenwijs blijven zitten met geen happy ending")
+                            print(" \ndit is einde 4 het eigenwijs blijven zitten met geen happy ending")
                         elif blijven_5 == "2":
                             os.system('cls')
                             print(" \nJe maakt iedereen wakker en zegt dat ze alles wat ze willen houden moeten inpakken want we gaan hier nu weg. \nNa 15 min is iedereen klaar en stap je in de auto en rij je rustig naar het noorden van Jemen")
@@ -575,7 +575,7 @@ elif begin == "2":
                             print("██╔══╝░░██║██║╚████║██║░░██║██╔══╝░░  ███████║")
                             print("███████╗██║██║░╚███║██████╔╝███████╗  ╚════██║")
                             print("╚══════╝╚═╝╚═╝░░╚══╝╚═════╝░╚══════╝  ░░░░░╚═╝")
-                            print(" \ndi is einde 4 het eigenwijs blijven zitten met geen happy ending")
+                            print(" \ndit is einde 4 het eigenwijs blijven zitten met geen happy ending")
                         elif blijven_5 == "2":
                             os.system('cls')
                             print(" \nJe maakt iedereen wakker en zegt dat ze alles wat ze willen houden moeten inpakken want we gaan hier nu weg. \nNa 15 min is iedereen klaar en stap je in de auto en rij je rustig naar het noorden van Jemen")
@@ -605,7 +605,7 @@ elif begin == "2":
                 print(" \nOké, dus je kiest om gewoon weg te gaan hier is voor nu toch geen toekomst meer.")
                 print(" \nDus je gaat zitten achter in de vrachtwagen er zijn een paar families die ook in de vrachtwagen zitten. \nHet is best een hobbelig tripje. \nJe zoon raak een beetje in paniek van alle bewegingen. \nDus je neemt hem op je schoot en rijden verder.")
                 print(" \nJullie komen nu eindelijk bij de grens van Jemen en Saudi-Arabië aan, gelukkig gaat de grenscontrole niet jullie vrachtwagen controleren. \nEn jullie komen veilig aan in Saudi-Arabië.")
-                print(" \nHelaas zegt je smokkelaar dat wegens omstandig heden jullie niet verder kunnen naar Saudi-Arabië dus eindigt de reis hiervoor nu. \nNou heeft hij een contact die jullie verder kan krijgen die gelijk morgen weggaat. \nGa je gelijk met de hele familie morgen verder vluchten of wacht je nog even in Saudi-Arabië? \n 1. Ja, ik wil hier snel weg \n2. Nah, ik blijf nog even in dit land")
+                print(" \nHelaas zegt je smokkelaar dat wegens omstandig heden jullie niet verder kunnen naar Saudi-Arabië dus eindigt de reis hiervoor nu. \nNou heeft hij een contact die jullie verder kan krijgen die gelijk morgen weggaat. \nGa je gelijk met de hele familie morgen verder vluchten of wacht je nog even in Saudi-Arabië? \n1. Ja, ik wil hier snel weg \n2. Nah, ik blijf nog even in dit land")
                 vluchten_3= input("Kies 1 of 2: ")
                 if vluchten_3 == "1":
                     os.system('cls')
@@ -675,7 +675,7 @@ elif begin == "2":
                     print("iek spreek geen:" , vluchten_3) 
             elif vluchten_2 == "2":
                 os.system('cls')
-                print(" \n Vraag je je geld terug? \n1. Nee het zal wel \n2. Ja ik kan het hard gebruiken")
+                print(" \nVraag je je geld terug? \n1. Nee het zal wel \n2. Ja ik kan het hard gebruiken")
                 vluchten_4= input("Kies 1 of 2: ")
                 if vluchten_4 == "1":
                     os.system('cls')
@@ -711,7 +711,7 @@ elif begin == "2":
                             print("██╔══╝░░██║██║╚████║██║░░██║██╔══╝░░  ███████║")
                             print("███████╗██║██║░╚███║██████╔╝███████╗  ╚════██║")
                             print("╚══════╝╚═╝╚═╝░░╚══╝╚═════╝░╚══════╝  ░░░░░╚═╝")
-                            print(" \ndi is einde 4 het eigenwijs blijven zitten met geen happy ending")
+                            print(" \ndit is einde 4 het eigenwijs blijven zitten met geen happy ending")
                         elif blijven_5 == "2":
                             os.system('cls')
                             print(" \nJe maakt iedereen wakker en zegt dat ze alles wat ze willen houden moeten inpakken want we gaan hier nu weg. \nNa 15 min is iedereen klaar en stap je in de auto en rij je rustig naar het noorden van Jemen")
@@ -763,7 +763,7 @@ elif begin == "2":
                             print("██╔══╝░░██║██║╚████║██║░░██║██╔══╝░░  ███████║")
                             print("███████╗██║██║░╚███║██████╔╝███████╗  ╚════██║")
                             print("╚══════╝╚═╝╚═╝░░╚══╝╚═════╝░╚══════╝  ░░░░░╚═╝")
-                            print(" \ndi is einde 4 het eigenwijs blijven zitten met geen happy ending")
+                            print(" \ndit is einde 4 het eigenwijs blijven zitten met geen happy ending")
                         elif blijven_5 == "2":
                             os.system('cls')
                             print(" \nJe maakt iedereen wakker en zegt dat ze alles wat ze willen houden moeten inpakken want we gaan hier nu weg. \nNa 15 min is iedereen klaar en stap je in de auto en rij je rustig naar het noorden van Jemen")
@@ -789,7 +789,7 @@ elif begin == "2":
         
         elif vluchten_1 == "2":
             os.system('cls')
-            print(" \nDit is helaas gefaald dus moet je alsnog gaan werken voor een maandje \n \nOké gelukkig heb je precies $3000 gekregen deze maand \nDus je gaat maar gelijk de volgende dag vluchten \n \nJe bent teruggegaan naar de smokkelaar hij is alleen al vertrokken. \nDus zoek je een nieuwe smokkelaar. \nGelukkig heb je er 1 gevonden die je via een vrachtwagen je naar Europa gaat brengen")
+            print(" \nDit is helaas gefaald dus moet je alsnog gaan werken voor een maandje \n\nOké gelukkig heb je precies $3000 gekregen deze maand \nDus je gaat maar gelijk de volgende dag vluchten \n\nJe bent teruggegaan naar de smokkelaar hij is alleen al vertrokken. \nDus zoek je een nieuwe smokkelaar. \nGelukkig heb je er 1 gevonden die je via een vrachtwagen je naar Europa gaat brengen")
             #ga naar 1 voor mij
             print(" \nJe komt aan bij de vrachtwagen op de dag dat je gaat vluchten richting Europa. \nJe hebt het geld en geeft het aan de smokkelaar. \nJe vrouw is een beetje bang maar het moet maar. \nJe dochter kijkt je ook bang aan maar je autistische zoon snapt er al helemaal niks meer van. \nJe aarzelt nog even wil ik dit echt wel doen? \n1. Ja, het is hier niet meer veilig \n2. Je kijkt nog een keer naar je familie en kiest om toch te blijven gezien de risico te groot is.")
             vluchten_2= input("Kies 1 of 2: ")
@@ -798,7 +798,7 @@ elif begin == "2":
                 print(" \nOké, dus je kiest om gewoon weg te gaan hier is voor nu toch geen toekomst meer.")
                 print(" \nDus je gaat zitten achter in de vrachtwagen er zijn een paar families die ook in de vrachtwagen zitten. \nHet is best een hobbelig tripje. \nJe zoon raak een beetje in paniek van alle bewegingen. \nDus je neemt hem op je schoot en rijden verder.")
                 print(" \nJullie komen nu eindelijk bij de grens van Jemen en Saudi-Arabië aan, gelukkig gaat de grenscontrole niet jullie vrachtwagen controleren. \nEn jullie komen veilig aan in Saudi-Arabië.")
-                print(" \nHelaas zegt je smokkelaar dat wegens omstandig heden jullie niet verder kunnen naar Saudi-Arabië dus eindigt de reis hiervoor nu. \nNou heeft hij een contact die jullie verder kan krijgen die gelijk morgen weggaat. \nGa je gelijk met de hele familie morgen verder vluchten of wacht je nog even in Saudi-Arabië? \n 1. Ja, ik wil hier snel weg \n2. Nah, ik blijf nog even in dit land")
+                print(" \nHelaas zegt je smokkelaar dat wegens omstandig heden jullie niet verder kunnen naar Saudi-Arabië dus eindigt de reis hiervoor nu. \nNou heeft hij een contact die jullie verder kan krijgen die gelijk morgen weggaat. \nGa je gelijk met de hele familie morgen verder vluchten of wacht je nog even in Saudi-Arabië? \n1. Ja, ik wil hier snel weg \n2. Nah, ik blijf nog even in dit land")
                 vluchten_3= input("Kies 1 of 2: ")
                 if vluchten_3 == "1":
                     os.system('cls')
@@ -868,7 +868,7 @@ elif begin == "2":
                     print("iek spreek geen:" , vluchten_3) 
             elif vluchten_2 == "2":
                 os.system('cls')
-                print(" \n Vraag je je geld terug? \n1. Nee het zal wel \n2. Ja ik kan het hard gebruiken")
+                print(" \nVraag je je geld terug? \n1. Nee het zal wel \n2. Ja ik kan het hard gebruiken")
                 vluchten_4= input("Kies 1 of 2: ")
                 if vluchten_4 == "1":
                     os.system('cls')
@@ -904,7 +904,7 @@ elif begin == "2":
                             print("██╔══╝░░██║██║╚████║██║░░██║██╔══╝░░  ███████║")
                             print("███████╗██║██║░╚███║██████╔╝███████╗  ╚════██║")
                             print("╚══════╝╚═╝╚═╝░░╚══╝╚═════╝░╚══════╝  ░░░░░╚═╝")
-                            print(" \ndi is einde 4 het eigenwijs blijven zitten met geen happy ending")
+                            print(" \ndit is einde 4 het eigenwijs blijven zitten met geen happy ending")
                         elif blijven_5 == "2":
                             os.system('cls')
                             print(" \nJe maakt iedereen wakker en zegt dat ze alles wat ze willen houden moeten inpakken want we gaan hier nu weg. \nNa 15 min is iedereen klaar en stap je in de auto en rij je rustig naar het noorden van Jemen")
@@ -956,7 +956,7 @@ elif begin == "2":
                             print("██╔══╝░░██║██║╚████║██║░░██║██╔══╝░░  ███████║")
                             print("███████╗██║██║░╚███║██████╔╝███████╗  ╚════██║")
                             print("╚══════╝╚═╝╚═╝░░╚══╝╚═════╝░╚══════╝  ░░░░░╚═╝")
-                            print(" \ndi is einde 4 het eigenwijs blijven zitten met geen happy ending")
+                            print(" \ndit is einde 4 het eigenwijs blijven zitten met geen happy ending")
                         elif blijven_5 == "2":
                             os.system('cls')
                             print(" \nJe maakt iedereen wakker en zegt dat ze alles wat ze willen houden moeten inpakken want we gaan hier nu weg. \nNa 15 min is iedereen klaar en stap je in de auto en rij je rustig naar het noorden van Jemen")
@@ -1020,7 +1020,7 @@ elif begin == "2":
                         print("██╔══╝░░██║██║╚████║██║░░██║██╔══╝░░  ███████║")
                         print("███████╗██║██║░╚███║██████╔╝███████╗  ╚════██║")
                         print("╚══════╝╚═╝╚═╝░░╚══╝╚═════╝░╚══════╝  ░░░░░╚═╝")
-                        print(" \ndi is einde 4 het eigenwijs blijven zitten met geen happy ending")
+                        print(" \ndit is einde 4 het eigenwijs blijven zitten met geen happy ending")
                     elif blijven_5 == "2":
                         os.system('cls')
                         print(" \nJe maakt iedereen wakker en zegt dat ze alles wat ze willen houden moeten inpakken want we gaan hier nu weg. \nNa 15 min is iedereen klaar en stap je in de auto en rij je rustig naar het noorden van Jemen")
@@ -1045,7 +1045,7 @@ elif begin == "2":
                 vluchten_1= input("Kies 1 of 2: ")
                 if vluchten_1 == "1":
                     os.system('cls')
-                    print(" \nOké gelukkig heb je precies $3000 gekregen deze maand \nDus je gaat maar gelijk de volgende dag vluchten \n \nJe bent teruggegaan naar de smokkelaar hij is alleen al vertrokken. \nDus zoek je een nieuwe smokkelaar. \nGelukkig heb je er 1 gevonden die je via een vrachtwagen je naar Europa gaat brengen")
+                    print(" \nOké gelukkig heb je precies $3000 gekregen deze maand \nDus je gaat maar gelijk de volgende dag vluchten \n\nJe bent teruggegaan naar de smokkelaar hij is alleen al vertrokken. \nDus zoek je een nieuwe smokkelaar. \nGelukkig heb je er 1 gevonden die je via een vrachtwagen je naar Europa gaat brengen")
                     #ga naar 1 voor mij
                     print(" \nJe komt aan bij de vrachtwagen op de dag dat je gaat vluchten richting Europa. \nJe hebt het geld en geeft het aan de smokkelaar. \nJe vrouw is een beetje bang maar het moet maar. \nJe dochter kijkt je ook bang aan maar je autistische zoon snapt er al helemaal niks meer van. \nJe aarzelt nog even wil ik dit echt wel doen? \n1. Ja, het is hier niet meer veilig \n2. Je kijkt nog een keer naar je familie en kiest om toch te blijven gezien de risico te groot is.")
                     vluchten_2= input("Kies 1 of 2: ")
@@ -1054,7 +1054,7 @@ elif begin == "2":
                         print(" \nOké, dus je kiest om gewoon weg te gaan hier is voor nu toch geen toekomst meer.")
                         print(" \nDus je gaat zitten achter in de vrachtwagen er zijn een paar families die ook in de vrachtwagen zitten. \nHet is best een hobbelig tripje. \nJe zoon raak een beetje in paniek van alle bewegingen. \nDus je neemt hem op je schoot en rijden verder.")
                         print(" \nJullie komen nu eindelijk bij de grens van Jemen en Saudi-Arabië aan, gelukkig gaat de grenscontrole niet jullie vrachtwagen controleren. \nEn jullie komen veilig aan in Saudi-Arabië.")
-                        print(" \nHelaas zegt je smokkelaar dat wegens omstandig heden jullie niet verder kunnen naar Saudi-Arabië dus eindigt de reis hiervoor nu. \nNou heeft hij een contact die jullie verder kan krijgen die gelijk morgen weggaat. \nGa je gelijk met de hele familie morgen verder vluchten of wacht je nog even in Saudi-Arabië? \n 1. Ja, ik wil hier snel weg \n2. Nah, ik blijf nog even in dit land")
+                        print(" \nHelaas zegt je smokkelaar dat wegens omstandig heden jullie niet verder kunnen naar Saudi-Arabië dus eindigt de reis hiervoor nu. \nNou heeft hij een contact die jullie verder kan krijgen die gelijk morgen weggaat. \nGa je gelijk met de hele familie morgen verder vluchten of wacht je nog even in Saudi-Arabië? \n1. Ja, ik wil hier snel weg \n2. Nah, ik blijf nog even in dit land")
                         vluchten_3= input("Kies 1 of 2: ")
                         if vluchten_3 == "1":
                             os.system('cls')
@@ -1124,7 +1124,7 @@ elif begin == "2":
                             print("iek spreek geen:" , vluchten_3) 
                     elif vluchten_2 == "2":
                         os.system('cls')
-                        print(" \n Vraag je je geld terug? \n1. Nee het zal wel \n2. Ja ik kan het hard gebruiken")
+                        print(" \nVraag je je geld terug? \n1. Nee het zal wel \n2. Ja ik kan het hard gebruiken")
                         vluchten_4= input("Kies 1 of 2: ")
                         if vluchten_4 == "1":
                             os.system('cls')
@@ -1160,7 +1160,7 @@ elif begin == "2":
                                     print("██╔══╝░░██║██║╚████║██║░░██║██╔══╝░░  ███████║")
                                     print("███████╗██║██║░╚███║██████╔╝███████╗  ╚════██║")
                                     print("╚══════╝╚═╝╚═╝░░╚══╝╚═════╝░╚══════╝  ░░░░░╚═╝")
-                                    print(" \ndi is einde 4 het eigenwijs blijven zitten met geen happy ending")
+                                    print(" \ndit is einde 4 het eigenwijs blijven zitten met geen happy ending")
                                 elif blijven_5 == "2":
                                     os.system('cls')
                                     print(" \nJe maakt iedereen wakker en zegt dat ze alles wat ze willen houden moeten inpakken want we gaan hier nu weg. \nNa 15 min is iedereen klaar en stap je in de auto en rij je rustig naar het noorden van Jemen")
@@ -1212,7 +1212,7 @@ elif begin == "2":
                                     print("██╔══╝░░██║██║╚████║██║░░██║██╔══╝░░  ███████║")
                                     print("███████╗██║██║░╚███║██████╔╝███████╗  ╚════██║")
                                     print("╚══════╝╚═╝╚═╝░░╚══╝╚═════╝░╚══════╝  ░░░░░╚═╝")
-                                    print(" \ndi is einde 4 het eigenwijs blijven zitten met geen happy ending")
+                                    print(" \ndit is einde 4 het eigenwijs blijven zitten met geen happy ending")
                                 elif blijven_5 == "2":
                                     os.system('cls')
                                     print(" \nJe maakt iedereen wakker en zegt dat ze alles wat ze willen houden moeten inpakken want we gaan hier nu weg. \nNa 15 min is iedereen klaar en stap je in de auto en rij je rustig naar het noorden van Jemen")
@@ -1238,7 +1238,7 @@ elif begin == "2":
 
                 elif vluchten_1 == "2":
                     os.system('cls')
-                    print(" \nDit is helaas gefaald dus moet je alsnog gaan werken voor een maandje \n \nOké gelukkig heb je precies $3000 gekregen deze maand \nDus je gaat maar gelijk de volgende dag vluchten \n \nJe bent teruggegaan naar de smokkelaar hij is alleen al vertrokken. \nDus zoek je een nieuwe smokkelaar. \nGelukkig heb je er 1 gevonden die je via een vrachtwagen je naar Europa gaat brengen")
+                    print(" \nDit is helaas gefaald dus moet je alsnog gaan werken voor een maandje \n\nOké gelukkig heb je precies $3000 gekregen deze maand \nDus je gaat maar gelijk de volgende dag vluchten \n\nJe bent teruggegaan naar de smokkelaar hij is alleen al vertrokken. \nDus zoek je een nieuwe smokkelaar. \nGelukkig heb je er 1 gevonden die je via een vrachtwagen je naar Europa gaat brengen")
                     #ga naar 1 voor mij
                     print(" \nJe komt aan bij de vrachtwagen op de dag dat je gaat vluchten richting Europa. \nJe hebt het geld en geeft het aan de smokkelaar. \nJe vrouw is een beetje bang maar het moet maar. \nJe dochter kijkt je ook bang aan maar je autistische zoon snapt er al helemaal niks meer van. \nJe aarzelt nog even wil ik dit echt wel doen? \n1. Ja, het is hier niet meer veilig \n2. Je kijkt nog een keer naar je familie en kiest om toch te blijven gezien de risico te groot is.")
                     vluchten_2= input("Kies 1 of 2: ")
@@ -1247,7 +1247,7 @@ elif begin == "2":
                         print(" \nOké, dus je kiest om gewoon weg te gaan hier is voor nu toch geen toekomst meer.")
                         print(" \nDus je gaat zitten achter in de vrachtwagen er zijn een paar families die ook in de vrachtwagen zitten. \nHet is best een hobbelig tripje. \nJe zoon raak een beetje in paniek van alle bewegingen. \nDus je neemt hem op je schoot en rijden verder.")
                         print(" \nJullie komen nu eindelijk bij de grens van Jemen en Saudi-Arabië aan, gelukkig gaat de grenscontrole niet jullie vrachtwagen controleren. \nEn jullie komen veilig aan in Saudi-Arabië.")
-                        print(" \nHelaas zegt je smokkelaar dat wegens omstandig heden jullie niet verder kunnen naar Saudi-Arabië dus eindigt de reis hiervoor nu. \nNou heeft hij een contact die jullie verder kan krijgen die gelijk morgen weggaat. \nGa je gelijk met de hele familie morgen verder vluchten of wacht je nog even in Saudi-Arabië? \n 1. Ja, ik wil hier snel weg \n2. Nah, ik blijf nog even in dit land")
+                        print(" \nHelaas zegt je smokkelaar dat wegens omstandig heden jullie niet verder kunnen naar Saudi-Arabië dus eindigt de reis hiervoor nu. \nNou heeft hij een contact die jullie verder kan krijgen die gelijk morgen weggaat. \nGa je gelijk met de hele familie morgen verder vluchten of wacht je nog even in Saudi-Arabië? \n1. Ja, ik wil hier snel weg \n2. Nah, ik blijf nog even in dit land")
                         vluchten_3= input("Kies 1 of 2: ")
                         if vluchten_3 == "1":
                             os.system('cls')
@@ -1317,7 +1317,7 @@ elif begin == "2":
                             print("iek spreek geen:" , vluchten_3) 
                     elif vluchten_2 == "2":
                         os.system('cls')
-                        print(" \n Vraag je je geld terug? \n1. Nee het zal wel \n2. Ja ik kan het hard gebruiken")
+                        print(" \nVraag je je geld terug? \n1. Nee het zal wel \n2. Ja ik kan het hard gebruiken")
                         vluchten_4= input("Kies 1 of 2: ")
                         if vluchten_4 == "1":
                             os.system('cls')
@@ -1353,7 +1353,7 @@ elif begin == "2":
                                     print("██╔══╝░░██║██║╚████║██║░░██║██╔══╝░░  ███████║")
                                     print("███████╗██║██║░╚███║██████╔╝███████╗  ╚════██║")
                                     print("╚══════╝╚═╝╚═╝░░╚══╝╚═════╝░╚══════╝  ░░░░░╚═╝")
-                                    print(" \ndi is einde 4 het eigenwijs blijven zitten met geen happy ending")
+                                    print(" \ndit is einde 4 het eigenwijs blijven zitten met geen happy ending")
                                 elif blijven_5 == "2":
                                     os.system('cls')
                                     print(" \nJe maakt iedereen wakker en zegt dat ze alles wat ze willen houden moeten inpakken want we gaan hier nu weg. \nNa 15 min is iedereen klaar en stap je in de auto en rij je rustig naar het noorden van Jemen")
@@ -1405,7 +1405,7 @@ elif begin == "2":
                                     print("██╔══╝░░██║██║╚████║██║░░██║██╔══╝░░  ███████║")
                                     print("███████╗██║██║░╚███║██████╔╝███████╗  ╚════██║")
                                     print("╚══════╝╚═╝╚═╝░░╚══╝╚═════╝░╚══════╝  ░░░░░╚═╝")
-                                    print(" \ndi is einde 4 het eigenwijs blijven zitten met geen happy ending")
+                                    print(" \ndit is einde 4 het eigenwijs blijven zitten met geen happy ending")
                                 elif blijven_5 == "2":
                                     os.system('cls')
                                     print(" \nJe maakt iedereen wakker en zegt dat ze alles wat ze willen houden moeten inpakken want we gaan hier nu weg. \nNa 15 min is iedereen klaar en stap je in de auto en rij je rustig naar het noorden van Jemen")
@@ -1438,7 +1438,7 @@ elif begin == "2":
             vluchten_1= input("Kies 1 of 2: ")
             if vluchten_1 == "1":
                 os.system('cls')
-                print(" \nOké gelukkig heb je precies $3000 gekregen deze maand \nDus je gaat maar gelijk de volgende dag vluchten \n \nJe bent teruggegaan naar de smokkelaar hij is alleen al vertrokken. \nDus zoek je een nieuwe smokkelaar. \nGelukkig heb je er 1 gevonden die je via een vrachtwagen je naar Europa gaat brengen")
+                print(" \nOké gelukkig heb je precies $3000 gekregen deze maand \nDus je gaat maar gelijk de volgende dag vluchten \n\nJe bent teruggegaan naar de smokkelaar hij is alleen al vertrokken. \nDus zoek je een nieuwe smokkelaar. \nGelukkig heb je er 1 gevonden die je via een vrachtwagen je naar Europa gaat brengen")
                 #ga naar 1 voor mij
                 vluchten_2= input("Kies 1 of 2: ")
                 if vluchten_2 == "1":
@@ -1446,7 +1446,7 @@ elif begin == "2":
                     print(" \nOké, dus je kiest om gewoon weg te gaan hier is voor nu toch geen toekomst meer.")
                     print(" \nDus je gaat zitten achter in de vrachtwagen er zijn een paar families die ook in de vrachtwagen zitten. \nHet is best een hobbelig tripje. \nJe zoon raak een beetje in paniek van alle bewegingen. \nDus je neemt hem op je schoot en rijden verder.")
                     print(" \nJullie komen nu eindelijk bij de grens van Jemen en Saudi-Arabië aan, gelukkig gaat de grenscontrole niet jullie vrachtwagen controleren. \nEn jullie komen veilig aan in Saudi-Arabië.")
-                    print(" \nHelaas zegt je smokkelaar dat wegens omstandig heden jullie niet verder kunnen naar Saudi-Arabië dus eindigt de reis hiervoor nu. \nNou heeft hij een contact die jullie verder kan krijgen die gelijk morgen weggaat. \nGa je gelijk met de hele familie morgen verder vluchten of wacht je nog even in Saudi-Arabië? \n 1. Ja, ik wil hier snel weg \n2. Nah, ik blijf nog even in dit land")
+                    print(" \nHelaas zegt je smokkelaar dat wegens omstandig heden jullie niet verder kunnen naar Saudi-Arabië dus eindigt de reis hiervoor nu. \nNou heeft hij een contact die jullie verder kan krijgen die gelijk morgen weggaat. \nGa je gelijk met de hele familie morgen verder vluchten of wacht je nog even in Saudi-Arabië? \n1. Ja, ik wil hier snel weg \n2. Nah, ik blijf nog even in dit land")
                     vluchten_3= input("Kies 1 of 2: ")
                     if vluchten_3 == "1":
                         os.system('cls')
@@ -1516,7 +1516,7 @@ elif begin == "2":
                         print("iek spreek geen:" , vluchten_3) 
                 elif vluchten_2 == "2":
                     os.system('cls')
-                    print(" \n Vraag je je geld terug? \n1. Nee het zal wel \n2. Ja ik kan het hard gebruiken")
+                    print(" \nVraag je je geld terug? \n1. Nee het zal wel \n2. Ja ik kan het hard gebruiken")
                     vluchten_4= input("Kies 1 of 2: ")
                     if vluchten_4 == "1":
                         os.system('cls')
@@ -1552,7 +1552,7 @@ elif begin == "2":
                                 print("██╔══╝░░██║██║╚████║██║░░██║██╔══╝░░  ███████║")
                                 print("███████╗██║██║░╚███║██████╔╝███████╗  ╚════██║")
                                 print("╚══════╝╚═╝╚═╝░░╚══╝╚═════╝░╚══════╝  ░░░░░╚═╝")
-                                print(" \ndi is einde 4 het eigenwijs blijven zitten met geen happy ending")
+                                print(" \ndit is einde 4 het eigenwijs blijven zitten met geen happy ending")
                             elif blijven_5 == "2":
                                 os.system('cls')
                                 print(" \nJe maakt iedereen wakker en zegt dat ze alles wat ze willen houden moeten inpakken want we gaan hier nu weg. \nNa 15 min is iedereen klaar en stap je in de auto en rij je rustig naar het noorden van Jemen")
@@ -1604,7 +1604,7 @@ elif begin == "2":
                                 print("██╔══╝░░██║██║╚████║██║░░██║██╔══╝░░  ███████║")
                                 print("███████╗██║██║░╚███║██████╔╝███████╗  ╚════██║")
                                 print("╚══════╝╚═╝╚═╝░░╚══╝╚═════╝░╚══════╝  ░░░░░╚═╝")
-                                print(" \ndi is einde 4 het eigenwijs blijven zitten met geen happy ending")
+                                print(" \ndit is einde 4 het eigenwijs blijven zitten met geen happy ending")
                             elif blijven_5 == "2":
                                 os.system('cls')
                                 print(" \nJe maakt iedereen wakker en zegt dat ze alles wat ze willen houden moeten inpakken want we gaan hier nu weg. \nNa 15 min is iedereen klaar en stap je in de auto en rij je rustig naar het noorden van Jemen")
@@ -1634,7 +1634,7 @@ elif begin == "2":
                     print(" \nOké, dus je kiest om gewoon weg te gaan hier is voor nu toch geen toekomst meer.")
                     print(" \nDus je gaat zitten achter in de vrachtwagen er zijn een paar families die ook in de vrachtwagen zitten. \nHet is best een hobbelig tripje. \nJe zoon raak een beetje in paniek van alle bewegingen. \nDus je neemt hem op je schoot en rijden verder.")
                     print(" \nJullie komen nu eindelijk bij de grens van Jemen en Saudi-Arabië aan, gelukkig gaat de grenscontrole niet jullie vrachtwagen controleren. \nEn jullie komen veilig aan in Saudi-Arabië.")
-                    print(" \nHelaas zegt je smokkelaar dat wegens omstandig heden jullie niet verder kunnen naar Saudi-Arabië dus eindigt de reis hiervoor nu. \nNou heeft hij een contact die jullie verder kan krijgen die gelijk morgen weggaat. \nGa je gelijk met de hele familie morgen verder vluchten of wacht je nog even in Saudi-Arabië? \n 1. Ja, ik wil hier snel weg \n2. Nah, ik blijf nog even in dit land")
+                    print(" \nHelaas zegt je smokkelaar dat wegens omstandig heden jullie niet verder kunnen naar Saudi-Arabië dus eindigt de reis hiervoor nu. \nNou heeft hij een contact die jullie verder kan krijgen die gelijk morgen weggaat. \nGa je gelijk met de hele familie morgen verder vluchten of wacht je nog even in Saudi-Arabië? \n1. Ja, ik wil hier snel weg \n2. Nah, ik blijf nog even in dit land")
                     vluchten_3= input("Kies 1 of 2: ")
                     if vluchten_3 == "1":
                         os.system('cls')
@@ -1704,7 +1704,7 @@ elif begin == "2":
                         print("iek spreek geen:" , vluchten_3) 
                 elif vluchten_2 == "2":
                     os.system('cls')
-                    print(" \n Vraag je je geld terug? \n1. Nee het zal wel \n2. Ja ik kan het hard gebruiken")
+                    print(" \nVraag je je geld terug? \n1. Nee het zal wel \n2. Ja ik kan het hard gebruiken")
                     vluchten_4= input("Kies 1 of 2: ")
                     if vluchten_4 == "1":
                         os.system('cls')
@@ -1740,7 +1740,7 @@ elif begin == "2":
                                 print("██╔══╝░░██║██║╚████║██║░░██║██╔══╝░░  ███████║")
                                 print("███████╗██║██║░╚███║██████╔╝███████╗  ╚════██║")
                                 print("╚══════╝╚═╝╚═╝░░╚══╝╚═════╝░╚══════╝  ░░░░░╚═╝")
-                                print(" \ndi is einde 4 het eigenwijs blijven zitten met geen happy ending")
+                                print(" \ndit is einde 4 het eigenwijs blijven zitten met geen happy ending")
                             elif blijven_5 == "2":
                                 os.system('cls')
                                 print(" \nJe maakt iedereen wakker en zegt dat ze alles wat ze willen houden moeten inpakken want we gaan hier nu weg. \nNa 15 min is iedereen klaar en stap je in de auto en rij je rustig naar het noorden van Jemen")
@@ -1792,7 +1792,7 @@ elif begin == "2":
                                 print("██╔══╝░░██║██║╚████║██║░░██║██╔══╝░░  ███████║")
                                 print("███████╗██║██║░╚███║██████╔╝███████╗  ╚════██║")
                                 print("╚══════╝╚═╝╚═╝░░╚══╝╚═════╝░╚══════╝  ░░░░░╚═╝")
-                                print(" \ndi is einde 4 het eigenwijs blijven zitten met geen happy ending")
+                                print(" \ndit is einde 4 het eigenwijs blijven zitten met geen happy ending")
                             elif blijven_5 == "2":
                                 os.system('cls')
                                 print(" \nJe maakt iedereen wakker en zegt dat ze alles wat ze willen houden moeten inpakken want we gaan hier nu weg. \nNa 15 min is iedereen klaar en stap je in de auto en rij je rustig naar het noorden van Jemen")
@@ -1817,7 +1817,7 @@ elif begin == "2":
                 #einde van stukje 1
             elif vluchten_1 == "2":
                 os.system('cls')
-                print(" \nDit is helaas gefaald dus moet je alsnog gaan werken voor een maandje \n \nOké gelukkig heb je precies $3000 gekregen deze maand \nDus je gaat maar gelijk de volgende dag vluchten \n \nJe bent teruggegaan naar de smokkelaar hij is alleen al vertrokken. \nDus zoek je een nieuwe smokkelaar. \nGelukkig heb je er 1 gevonden die je via een vrachtwagen je naar Europa gaat brengen")
+                print(" \nDit is helaas gefaald dus moet je alsnog gaan werken voor een maandje \n\nOké gelukkig heb je precies $3000 gekregen deze maand \nDus je gaat maar gelijk de volgende dag vluchten \n\nJe bent teruggegaan naar de smokkelaar hij is alleen al vertrokken. \nDus zoek je een nieuwe smokkelaar. \nGelukkig heb je er 1 gevonden die je via een vrachtwagen je naar Europa gaat brengen")
                 #ga naar 1 voor mij
                 vluchten_2= input("Kies 1 of 2: ")
                 if vluchten_2 == "1":
@@ -1825,7 +1825,7 @@ elif begin == "2":
                     print(" \nOké, dus je kiest om gewoon weg te gaan hier is voor nu toch geen toekomst meer.")
                     print(" \nDus je gaat zitten achter in de vrachtwagen er zijn een paar families die ook in de vrachtwagen zitten. \nHet is best een hobbelig tripje. \nJe zoon raak een beetje in paniek van alle bewegingen. \nDus je neemt hem op je schoot en rijden verder.")
                     print(" \nJullie komen nu eindelijk bij de grens van Jemen en Saudi-Arabië aan, gelukkig gaat de grenscontrole niet jullie vrachtwagen controleren. \nEn jullie komen veilig aan in Saudi-Arabië.")
-                    print(" \nHelaas zegt je smokkelaar dat wegens omstandig heden jullie niet verder kunnen naar Saudi-Arabië dus eindigt de reis hiervoor nu. \nNou heeft hij een contact die jullie verder kan krijgen die gelijk morgen weggaat. \nGa je gelijk met de hele familie morgen verder vluchten of wacht je nog even in Saudi-Arabië? \n 1. Ja, ik wil hier snel weg \n2. Nah, ik blijf nog even in dit land")
+                    print(" \nHelaas zegt je smokkelaar dat wegens omstandig heden jullie niet verder kunnen naar Saudi-Arabië dus eindigt de reis hiervoor nu. \nNou heeft hij een contact die jullie verder kan krijgen die gelijk morgen weggaat. \nGa je gelijk met de hele familie morgen verder vluchten of wacht je nog even in Saudi-Arabië? \n1. Ja, ik wil hier snel weg \n2. Nah, ik blijf nog even in dit land")
                     vluchten_3= input("Kies 1 of 2: ")
                     if vluchten_3 == "1":
                         os.system('cls')
@@ -1895,7 +1895,7 @@ elif begin == "2":
                         print("iek spreek geen:" , vluchten_3) 
                 elif vluchten_2 == "2":
                     os.system('cls')
-                    print(" \n Vraag je je geld terug? \n1. Nee het zal wel \n2. Ja ik kan het hard gebruiken")
+                    print(" \nVraag je je geld terug? \n1. Nee het zal wel \n2. Ja ik kan het hard gebruiken")
                     vluchten_4= input("Kies 1 of 2: ")
                     if vluchten_4 == "1":
                         os.system('cls')
@@ -1931,7 +1931,7 @@ elif begin == "2":
                                 print("██╔══╝░░██║██║╚████║██║░░██║██╔══╝░░  ███████║")
                                 print("███████╗██║██║░╚███║██████╔╝███████╗  ╚════██║")
                                 print("╚══════╝╚═╝╚═╝░░╚══╝╚═════╝░╚══════╝  ░░░░░╚═╝")
-                                print(" \ndi is einde 4 het eigenwijs blijven zitten met geen happy ending")
+                                print(" \ndit is einde 4 het eigenwijs blijven zitten met geen happy ending")
                             elif blijven_5 == "2":
                                 os.system('cls')
                                 print(" \nJe maakt iedereen wakker en zegt dat ze alles wat ze willen houden moeten inpakken want we gaan hier nu weg. \nNa 15 min is iedereen klaar en stap je in de auto en rij je rustig naar het noorden van Jemen")
@@ -1983,7 +1983,7 @@ elif begin == "2":
                                 print("██╔══╝░░██║██║╚████║██║░░██║██╔══╝░░  ███████║")
                                 print("███████╗██║██║░╚███║██████╔╝███████╗  ╚════██║")
                                 print("╚══════╝╚═╝╚═╝░░╚══╝╚═════╝░╚══════╝  ░░░░░╚═╝")
-                                print(" \ndi is einde 4 het eigenwijs blijven zitten met geen happy ending")
+                                print(" \ndit is einde 4 het eigenwijs blijven zitten met geen happy ending")
                             elif blijven_5 == "2":
                                 os.system('cls')
                                 print(" \nJe maakt iedereen wakker en zegt dat ze alles wat ze willen houden moeten inpakken want we gaan hier nu weg. \nNa 15 min is iedereen klaar en stap je in de auto en rij je rustig naar het noorden van Jemen")
@@ -2013,7 +2013,7 @@ elif begin == "2":
                     print(" \nOké, dus je kiest om gewoon weg te gaan hier is voor nu toch geen toekomst meer.")
                     print(" \nDus je gaat zitten achter in de vrachtwagen er zijn een paar families die ook in de vrachtwagen zitten. \nHet is best een hobbelig tripje. \nJe zoon raak een beetje in paniek van alle bewegingen. \nDus je neemt hem op je schoot en rijden verder.")
                     print(" \nJullie komen nu eindelijk bij de grens van Jemen en Saudi-Arabië aan, gelukkig gaat de grenscontrole niet jullie vrachtwagen controleren. \nEn jullie komen veilig aan in Saudi-Arabië.")
-                    print(" \nHelaas zegt je smokkelaar dat wegens omstandig heden jullie niet verder kunnen naar Saudi-Arabië dus eindigt de reis hiervoor nu. \nNou heeft hij een contact die jullie verder kan krijgen die gelijk morgen weggaat. \nGa je gelijk met de hele familie morgen verder vluchten of wacht je nog even in Saudi-Arabië? \n 1. Ja, ik wil hier snel weg \n2. Nah, ik blijf nog even in dit land")
+                    print(" \nHelaas zegt je smokkelaar dat wegens omstandig heden jullie niet verder kunnen naar Saudi-Arabië dus eindigt de reis hiervoor nu. \nNou heeft hij een contact die jullie verder kan krijgen die gelijk morgen weggaat. \nGa je gelijk met de hele familie morgen verder vluchten of wacht je nog even in Saudi-Arabië? \n1. Ja, ik wil hier snel weg \n2. Nah, ik blijf nog even in dit land")
                     vluchten_3= input("Kies 1 of 2: ")
                     if vluchten_3 == "1":
                         os.system('cls')
@@ -2083,7 +2083,7 @@ elif begin == "2":
                         print("iek spreek geen:" , vluchten_3) 
                 elif vluchten_2 == "2":
                     os.system('cls')
-                    print(" \n Vraag je je geld terug? \n1. Nee het zal wel \n2. Ja ik kan het hard gebruiken")
+                    print(" \nVraag je je geld terug? \n1. Nee het zal wel \n2. Ja ik kan het hard gebruiken")
                     vluchten_4= input("Kies 1 of 2: ")
                     if vluchten_4 == "1":
                         os.system('cls')
@@ -2119,7 +2119,7 @@ elif begin == "2":
                                 print("██╔══╝░░██║██║╚████║██║░░██║██╔══╝░░  ███████║")
                                 print("███████╗██║██║░╚███║██████╔╝███████╗  ╚════██║")
                                 print("╚══════╝╚═╝╚═╝░░╚══╝╚═════╝░╚══════╝  ░░░░░╚═╝")
-                                print(" \ndi is einde 4 het eigenwijs blijven zitten met geen happy ending")
+                                print(" \ndit is einde 4 het eigenwijs blijven zitten met geen happy ending")
                             elif blijven_5 == "2":
                                 os.system('cls')
                                 print(" \nJe maakt iedereen wakker en zegt dat ze alles wat ze willen houden moeten inpakken want we gaan hier nu weg. \nNa 15 min is iedereen klaar en stap je in de auto en rij je rustig naar het noorden van Jemen")
@@ -2171,7 +2171,7 @@ elif begin == "2":
                                 print("██╔══╝░░██║██║╚████║██║░░██║██╔══╝░░  ███████║")
                                 print("███████╗██║██║░╚███║██████╔╝███████╗  ╚════██║")
                                 print("╚══════╝╚═╝╚═╝░░╚══╝╚═════╝░╚══════╝  ░░░░░╚═╝")
-                                print(" \ndi is einde 4 het eigenwijs blijven zitten met geen happy ending")
+                                print(" \ndit is einde 4 het eigenwijs blijven zitten met geen happy ending")
                             elif blijven_5 == "2":
                                 os.system('cls')
                                 print(" \nJe maakt iedereen wakker en zegt dat ze alles wat ze willen houden moeten inpakken want we gaan hier nu weg. \nNa 15 min is iedereen klaar en stap je in de auto en rij je rustig naar het noorden van Jemen")
@@ -2202,3 +2202,5 @@ elif begin == "2":
         print("uuuhmmm wat")
 else:
     print("uhm wat")
+
+input(" \nklik op een toest om verder te gaan...")
